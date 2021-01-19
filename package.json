@@ -1,0 +1,16 @@
+{
+  "name": "gaincypressdemo",
+  "version": "1.0.0",
+  "description": "cypressDemo",
+  "main": "index.js",
+  "scripts": {
+    "demorun": "cypress run --spec cypress/integration/demo/gainDemo.spec.js --headless --browser chrome"
+  },
+  "author": "Yirga",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.2.1",
+    "cypress-multi-reporters": "1.4.0",
+    "mocha-junit-reporter": "2.0.0"
+  }
+}
