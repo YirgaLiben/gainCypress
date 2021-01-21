@@ -17,3 +17,5 @@ snapshots.js
 coverage
 dist
 test-data.json
+Cypress/reports/*
+Cypress/videos/*
